@@ -14,10 +14,10 @@ st.markdown(
 <style>
 .stApp { font-size: 25px !important; }
 h1, h2, h3, .stMarkdown h1, .stMarkdown h2 { font-size: 2.0em !important; font-weight: 700 !important; }
-.stDataFrame { font-size: 20px !important; }
-.stDataFrame td, .stDataFrame th { font-size: 20px !important; padding: 10px 14px !important; }
-.stDataFrame thead tr th { font-size: 20px !important; font-weight: 700 !important; background-color: #1f2937 !important; }
-p, li, .stCaption, .stMarkdown p { font-size: 20px !important; }
+.stDataFrame table, .stDataFrame td, .stDataFrame th { font-size: 20px !important; }
+.stDataFrame thead tr th { font-size: 20px !important; font-weight: 700 !important; }
+.stDataFrame [role="grid"] { font-size: 20px !important; }
+p, li, .stCaption, .stMarkdown p { font-size: 16px !important; }
 .stMetric label, .stMetric value { font-size: 20px !important; }
 .stSelectbox label, .stMultiSelect label, .stSlider label, .stTextInput label, .stNumberInput label, .stDateInput label { font-size: 20px !important; }
 .stTabs [data-baseweb="tab"] { font-size: 20px !important; font-weight: 600 !important; }
